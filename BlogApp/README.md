@@ -2,7 +2,7 @@
 
 (live link ):{coming soon}
 
-##Tech Stack involved({
+#Tech Stack involved({
 React,
 Javascript,
 TailwindCSS
