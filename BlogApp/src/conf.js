@@ -1,10 +1,10 @@
-const conf={
-    appwrite_url:String(import.meta.env.VITE_APPWRITE_URL),
-    appwrite_project_id:String(import.meta.env.VITE_APPWRITE_PROJECT_ID),
-    appwrite_DATABASE_ID:String(import.meta.env.VITE_APPWRITE_DATABASE_ID),
-    appwrite_COLLECTIONID:String(import.meta.env.VITE_APPWRITE_COLLECTION_ID),
-    appwrite_BUCKETID:String(import.meta.env.VITE_APPWRITE_BUCKET_ID)
-
+const conf = {
+    appwriteUrl: String(import.meta.env.VITE_APPWRITE_URL),
+    appwriteProjectId: String(import.meta.env.VITE_APPWRITE_PROJECT_ID),
+    appwriteDatabaseId: String(import.meta.env.VITE_APPWRITE_DATABASE_ID),
+    appwriteCollectionId: String(import.meta.env.VITE_APPWRITE_COLLECTION_ID),
+    appwriteBucketId: String(import.meta.env.VITE_APPWRITE_BUCKET_ID),
 }
+// there was a name issue with the import.meta.env.VITE_APPWRITE_URL, it was later fixed in debugging video
 
-export default conf;
+export default conf
