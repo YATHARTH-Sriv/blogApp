@@ -8,6 +8,7 @@ import RTE from "./RTE";
 import Signup from "./Signup";
 import Login from "./Login";
 import Button from "./Button";
+import AuthLayout from "./AuthLayout";
 export {
     Header,
     Footer,
@@ -18,5 +19,6 @@ export {
     Signup,
     Login,
     Button,
+    AuthLayout
 
 }
