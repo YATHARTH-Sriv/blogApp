@@ -16,7 +16,7 @@ import EditPost from "./pages/EditPost.jsx";
 import Post from "./pages/Post";
 
 import AllPosts from "./pages/AllPosts.jsx";
-import { AuthLayout } from './components/index.js'
+import AuthLayout from "./components/AuthLayout.jsx"
 
 const router = createBrowserRouter([
   {
