@@ -2,6 +2,7 @@
 import Header from "./Header/Header";
 import Footer from "./Footer/Footer";
 import Container from "./container/Container";
+import Postform from "./Postform.jsx"
 import Logo from "./Logo";
 import LogoutBtn from "./Header/LogoutBtn";
 import RTE from "./RTE";
@@ -19,6 +20,7 @@ export {
     Signup,
     Login,
     Button,
-    AuthLayout
+    AuthLayout,
+    Postform
 
 }
